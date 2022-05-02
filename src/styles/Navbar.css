@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #7199ae;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  gap: 10px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.searchbar {
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  flex: 1;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar > input {
+  flex: 1;
+  outline: none;
+  border: none;
+}

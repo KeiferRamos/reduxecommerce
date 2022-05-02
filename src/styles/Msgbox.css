@@ -1,0 +1,37 @@
+.modal-message {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: rgb(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.modal-message > div {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.modal-message div > button {
+  padding: 3px 6px;
+  border: none;
+  background: #3d6b78;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.header-text > div {
+  border-radius: 3px;
+  margin: 5px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

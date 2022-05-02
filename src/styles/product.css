@@ -1,0 +1,39 @@
+.product {
+  width: 50%;
+  height: 250px;
+  padding: 5px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #bebebe;
+}
+
+.product > .info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product .info > .name {
+  width: 100%;
+}
+
+.product .info > .price {
+  flex: 1;
+  color: rgb(95, 139, 151);
+}
+
+.product > img {
+  width: 100%;
+  height: calc(100% - 55px);
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.add-btn {
+  padding: 3px 6px;
+  font-size: 13px;
+  border: none;
+  background-color: rgb(64, 110, 123);
+  color: #fff;
+  border-radius: 2px;
+}

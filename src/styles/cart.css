@@ -1,0 +1,29 @@
+.cart-container {
+  height: calc(100% - 80px);
+  overflow: scroll;
+}
+
+.cart-info {
+  position: absolute;
+  width: 200px;
+  height: 85px;
+  margin: 5px;
+  padding: 4px;
+  bottom: 0;
+  right: 0;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #5c858c;
+}
+
+.cart-info > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-btn {
+  padding: 2px;
+  width: 100%;
+  border: none;
+  background: #fff;
+}

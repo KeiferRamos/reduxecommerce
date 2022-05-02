@@ -1,0 +1,12 @@
+export const FILTER = "FILTER";
+export const SORT_BY_PRICE = "SORT_BY_PRICE";
+export const SEARCH_ITEM = "SEARCH_ITEM";
+export const SELECT_FILTER = "SELECT_FILTER";
+export const ADD_ITEM = "ADD_ITEM";
+export const UPDATE_COUNT = "UPDATE_COUNT";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const REMOVE_MSG = "REMOVE_MSG";
+export const GET_CART_TOTAL = "GET_CART_TOTAL";
+export const GET_CART_COUNT = "GET_CART_COUNT";
+export const SET_INFO = "SET_INFO";
+export const CLEAR_CART = "CLEAR_CART";
