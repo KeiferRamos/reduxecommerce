@@ -6,9 +6,10 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function App({ userCart }) {
+  const nav = useNavigate();
   useEffect(() => {
     localStorage.setItem("cartItem", JSON.stringify(userCart));
-    useNavigate()("/");
+    nav("/");
   }, [userCart]);
 
   return (
