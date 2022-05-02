@@ -538,8 +538,8 @@ export default [
 ];
 
 export const links = [
-  { logo: <FaHome />, link: "/" },
-  { logo: <FaShoppingCart />, link: "/cart" },
+  { logo: <FaHome />, link: "/reduxecommerce/" },
+  { logo: <FaShoppingCart />, link: "/reduxecommerce/cart" },
 ];
 
 export const selectionData = [
