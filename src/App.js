@@ -3,10 +3,12 @@ import RoutesComp from "./Routes";
 import Navbar from "./components/Navbar";
 import { connect } from "react-redux";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function App({ userCart }) {
   useEffect(() => {
     localStorage.setItem("cartItem", JSON.stringify(userCart));
+    useNavigate()("/");
   }, [userCart]);
 
   return (
