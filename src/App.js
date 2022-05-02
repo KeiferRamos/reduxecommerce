@@ -9,8 +9,11 @@ function App({ userCart }) {
   const nav = useNavigate();
   useEffect(() => {
     localStorage.setItem("cartItem", JSON.stringify(userCart));
-    nav("/");
   }, [userCart]);
+
+  useEffect(() => {
+    nav("/");
+  }, []);
 
   return (
     <div className="App">

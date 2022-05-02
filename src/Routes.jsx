@@ -7,9 +7,9 @@ import Search from "./pages/Search";
 function RoutesComp() {
   return (
     <Routes>
-      <Route path="/reduxecommerce/" element={<Home />} />
-      <Route path="/reduxecommerce/cart" element={<Cart />} />
-      <Route path="/reduxecommerce/search" element={<Search />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/search" element={<Search />} />
     </Routes>
   );
 }

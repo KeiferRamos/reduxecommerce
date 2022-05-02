@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="searchbar" onClick={() => nav("/reduxecommerce/search")}>
+      <div className="searchbar" onClick={() => nav("/search")}>
         <input type="text" placeholder="search here..." readOnly />
         <FaSearch />
       </div>
