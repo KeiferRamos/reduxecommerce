@@ -3,7 +3,7 @@ import Product from "../components/Product.jsx";
 import { selectionData } from "../data.js";
 import { connect } from "react-redux";
 import DropDown from "../components/dropdown.jsx";
-import { FILTER } from "../Redux/ActionType";
+import { FILTER } from "../Redux/actions";
 import Msgbox from "../components/Msgbox.jsx";
 
 function Home(state) {
