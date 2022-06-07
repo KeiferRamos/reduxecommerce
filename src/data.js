@@ -539,7 +539,7 @@ export default [
 
 export const links = [
   { logo: <FaHome />, link: "/" },
-  { logo: <FaShoppingCart />, link: "/cart" },
+  { logo: <FaShoppingCart />, link: "/#/cart" },
 ];
 
 export const selectionData = [
