@@ -12,7 +12,7 @@ import {
   GET_CART_TOTAL,
   SET_INFO,
   CLEAR_CART,
-} from "./ActionType";
+} from "./actions";
 
 function reducer(state, action) {
   if (action.type == SELECT_FILTER) {

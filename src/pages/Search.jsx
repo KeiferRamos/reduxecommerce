@@ -4,7 +4,7 @@ import { FaArrowLeft } from "react-icons/fa";
 import { useNavigate } from "react-router";
 import { connect } from "react-redux";
 import Product from "../components/Product";
-import { SEARCH_ITEM } from "../Redux/ActionType";
+import { SEARCH_ITEM } from "../Redux/actions";
 import Msgbox from "../components/Msgbox";
 
 function Search(state) {

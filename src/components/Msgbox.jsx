@@ -1,5 +1,5 @@
 import React from "react";
-import { REMOVE_MSG } from "../Redux/ActionType";
+import { REMOVE_MSG } from "../Redux/actions";
 import "../styles/Msgbox.css";
 import { connect } from "react-redux";
 

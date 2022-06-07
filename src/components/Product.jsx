@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/product.css";
 import { connect } from "react-redux";
-import { ADD_ITEM } from "../Redux/ActionType";
+import { ADD_ITEM } from "../Redux/actions";
 
 function Product({ img, name, price, addItem }) {
   return (

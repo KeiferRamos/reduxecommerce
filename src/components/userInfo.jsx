@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/user-info.css";
 import { connect } from "react-redux";
-import { CLEAR_CART, SET_INFO } from "../Redux/ActionType";
+import { CLEAR_CART, SET_INFO } from "../Redux/actions";
 
 function UserInfo({ closeForm, userInfo, dispatch }) {
   const { fullname, address, contact } = userInfo;

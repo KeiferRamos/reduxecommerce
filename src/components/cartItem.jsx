@@ -1,6 +1,6 @@
 import React from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { REMOVE_ITEM, UPDATE_COUNT } from "../Redux/ActionType";
+import { REMOVE_ITEM, UPDATE_COUNT } from "../Redux/actions";
 import "../styles/cart-item.css";
 
 function CartItem({ id, item, quantity, dispatch }) {

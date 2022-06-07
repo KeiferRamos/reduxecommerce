@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import "../styles/dropdown.css";
-import { SELECT_FILTER } from "../Redux/ActionType";
+import { SELECT_FILTER } from "../Redux/actions";
 
 function DropDown({ dispatch, name, option, selection }) {
   const [open, setOpen] = useState(false);
