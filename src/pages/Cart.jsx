@@ -3,11 +3,7 @@ import { connect } from "react-redux";
 import CartItem from "../components/cartItem";
 import Msgbox from "../components/Msgbox";
 import UserInfo from "../components/userInfo";
-import {
-  GET_CART_COUNT,
-  GET_CART_TOTAL,
-  REMOVE_MSG,
-} from "../Redux/ActionType";
+import { GET_CART_COUNT, GET_CART_TOTAL, REMOVE_MSG } from "../Redux/actions";
 import "../styles/cart.css";
 
 function Cart(state) {
